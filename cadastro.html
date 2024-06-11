@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="avatares.html">Avatares</a></li>
+            <li><a href="localidades.html">Localidades</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="sobrenos.html">Sobre Nós</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>Cadastro</h2>
+        <form action="/submit_registration" method="post">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+            <label for="Telefone">Telefone</label>
+            <input type="tel" id="phone" name="phone" maxlength="15" minlength="14" pattern="\(\d{2}\) \d{4,5}-\d{4}" placeholder="(11) 93456-7890" required oninput="formatPhone(this)">
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            
+
+            <label for="confirmar_senha">Confirmar Senha</label>
+            <input type="password" id="confirmar_senha" name="confirmar_senha" placeholder="Confirme sua senha" required>
+            <p></p>
+            
+            <a href="login.html" class="t_cadastro"><p>Já tenho cadastro</p></a>
+            <button type="submit">Cadastrar</button>
+            <script src="script.js"></script>
+        </form>
+
+        <div id="rodape">
+            <p>&copy; Todos os direitos reservados</p>
+        </div>
+    </div>
+</body>
+</html>

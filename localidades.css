@@ -1,0 +1,98 @@
+body {
+    font-family: 'Merienda';
+    padding: 20px;
+    background-color: #dadcc0;
+    padding-top: 60px;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top; /* Para alinhar os retângulos ao topo */
+}
+.rectangle {
+    width: auto; /* Definido como automático para ajustar ao conteúdo */
+    max-width: 400px;
+    border: 1px solid #333;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px; /* Espaçamento entre os retângulos */
+    transition: height 0.3s ease;
+    border-radius: 5px;
+}
+.rectangle img {
+    width: 100%;
+    height: 225px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
+    display: block;
+}
+.rectangle .content {
+    background: #563929;
+    color: white;
+    padding: 5px;
+}
+.rectangle h3 {
+    margin: 5px 0;
+}
+.rectangle .text {
+    padding: 10px;
+    background: #fff;
+    color: #333;
+    display: none;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+.expanded .text {
+    width: 333px;
+    display: block;
+    opacity: 1;
+}
+
+.menu {
+    background-color: #7d1a09;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; 
+    border-radius: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #f08141;
+}
+#rodape {
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Merienda';
+}

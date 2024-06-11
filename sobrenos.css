@@ -1,0 +1,80 @@
+body {
+    font-family: "Merienda", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f4e1;
+    color: #dadcc0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7d1a09;
+    border-radius: 10px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.profile-info {
+    flex: 1;
+}
+.profile-info h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #dadcc0;
+}
+.profile-info p {
+    margin: 5px 0;
+    color: #dadcc0;
+    line-height: 1.6;
+}
+#rodape {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.menu {
+    background-color: #7d1a09;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espaço abaixo do menu */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #f08141;
+}
+#rodape {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Merienda' cursive;
+}
