@@ -12,7 +12,8 @@
 </head>
 <body>
     <div class="menu">
-        <ul>
+        <h1>Nação Avatar</h1>
+        <ul class="menu-items">
             <li><a href="home.html">Home</a></li>
             <li><a href="avatares.html">Avatares</a></li>
             <li><a href="localidades.html">Localidades</a></li>
@@ -22,7 +23,7 @@
     </div>
     <div class="container">
         <h2>Cadastro</h2>
-        <form action="/submit_registration" method="post">
+        <form id="formulario_cadastro">
             <label for="nome">Nome Completo</label>
             <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
 
@@ -42,12 +43,16 @@
             
             <a href="login.html" class="t_cadastro"><p>Já tenho cadastro</p></a>
             <button type="submit">Cadastrar</button>
-            <script src="script.js"></script>
+        
         </form>
 
         <div id="rodape">
             <p>&copy; Todos os direitos reservados</p>
         </div>
     </div>
+
+    <script src="script.js"></script>
+    
 </body>
+
 </html>

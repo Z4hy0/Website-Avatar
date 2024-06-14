@@ -8,6 +8,16 @@ body {
     color: #333;
 }
 
+.news-section h3{
+    color: #7d1a09;
+    font-size: 2em;
+}
+
+#sobre {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 header {
     background-color: #7d1a09;
     color: #fff;
@@ -25,6 +35,13 @@ header .avatar-img {
     height: auto;
     border-radius: 5px; 
 }
+
+.image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px; 
+}
+
 header h1 {
     margin: 0;
     font-size: 2.5em;
@@ -43,7 +60,7 @@ section {
 }
 
 h2 {
-    color: #4A90E2;
+    color: #7d1a09;
     font-size: 2em;
 }
 
@@ -52,13 +69,14 @@ p {
 }
 
 footer {
-    background-color: #333;
+    background-color: #7d1a09;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
 footer h2 {
+    color: #fff;
     margin-top: 0;
 }
 
@@ -98,4 +116,78 @@ footer p {
 
 .menu a:hover {
     color: #f08141;
+}
+
+.contact-section {
+    padding: 60px 0;
+    text-align: center;
+}
+.news-section {
+    padding: 60px 0;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.news-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.news-item {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; 
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .menu ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu ul.menu-items {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .menu h1 {
+        display: none;
+        margin: 0;
+        font-size: 21px;
+        position: fixed;
+        left: 1%;
+        color: #ddd;
+    }
+ }
+
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu h1 {
+    margin: 0;
+    font-size: 21px;
+    position: fixed;
+    left: 1%;
+    color: #ddd;
 }

@@ -116,3 +116,41 @@ button:hover {
 .t_cadastro :hover{
     color: #f08141;
 }
+
+
+@media (max-width: 768px) {
+    .menu ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu ul.menu-items {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .menu h1 {
+        display: none;
+        margin: 0;
+        font-size: 21px;
+        position: fixed;
+        left: 1%;
+        color: #ddd;
+    }
+ }
+
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu h1 {
+    margin: 0;
+    font-size: 21px;
+    position: fixed;
+    left: 1%;
+    color: #ddd;
+}
