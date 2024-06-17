@@ -5,6 +5,18 @@ body {
     padding-top: 60px;
 
 }
+.title{
+    color: #7d1a09;
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+    color: black;
+    
+}
+
 table {
     width: 100%;
     border-collapse: collapse;

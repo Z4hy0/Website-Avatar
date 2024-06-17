@@ -5,6 +5,7 @@ body {
     padding-top: 60px;
 
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -40,6 +41,7 @@ td {
 }
 .rectangle h3 {
     margin: 5px 0;
+
 }
 .rectangle .text {
     padding: 10px;
@@ -120,10 +122,15 @@ td {
  }
 
 
-header .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header{
+    color: #7d1a09;
+    text-align: center;
+
+}
+
+h2{
+    color: #black;
+    text-align: center;
 }
 
 .menu h1 {

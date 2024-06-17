@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="localidades.css">
+    <link rel="stylesheet" href="avatares.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
-    <title>Localidades do Mundo Avatar</title>
+    <title>Avatares</title>
+    <link rel="icon" href="/imagens/iconeHome.png" type="image/x-icon">
 </head>
 <body>
     <div class="menu">
         <h1>Nação Avatar</h1>
         <ul class="menu-items">
-            <li><a href="home.html">Home</a></li>
+            <li><a href="/home/home.html">Home</a></li>
             <li><a href="avatares.html">Avatares</a></li>
-            <li><a href="localidades.html">Localidades</a></li>
-            <li><a href="cadastro.html">Cadastro</a></li>
-            <li><a href="sobrenos.html">Sobre Nós</a></li>
+            <li><a href="/localidades/localidades.html">Localidades</a></li>
+            <li><a href="/cadastrologin/cadastro.html">Cadastro</a></li>
+            <li><a href="/sobrenos/sobrenos.html">Sobre Nós</a></li>
         </ul>
     </div>
+    <header class="title">
+        <h1>Avatares</h1>
+    </header>
+    <h2>Clique nas imagens abaixo para saber mais sobre cada avatar:</h2>
     <table>
         <tr>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/wan.png" alt="Avatar Wan">
+                    <img src="/imagens/wan.png" alt="Avatar Wan">
                     <div class="content">
                         <h3>Avatar Wan</h3>
                     </div>
@@ -35,7 +40,7 @@
             </td>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/yangchen.jpg" alt="Avatar Yangchen">
+                    <img src="/imagens/yangchen.jpg" alt="Avatar Yangchen">
                     <div class="content">
                         <h3>Avatar Yangchen</h3>
                     </div>
@@ -46,7 +51,7 @@
             </td>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/Kuruk.png" alt="Avatar Kuruk">
+                    <img src="/imagens/Kuruk.png" alt="Avatar Kuruk">
                     <div class="content">
                         <h3>Avatar Kuruk</h3>
                     </div>
@@ -59,7 +64,7 @@
         <tr>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/Kyoshi.png" alt="Avatar Kyoshi">
+                    <img src="/imagens/Kyoshi.png" alt="Avatar Kyoshi">
                     <div class="content">
                         <h3>Avatar Kyoshi</h3>
                     </div>
@@ -70,7 +75,7 @@
             </td>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/Roku.png" alt="Avatar Roku">
+                    <img src="/imagens/Roku.png" alt="Avatar Roku">
                     <div class="content">
                         <h3>Avatar Roku</h3>
                     </div>
@@ -82,7 +87,7 @@
 
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/Aang.png" alt="Avatar Aang">
+                    <img src="/imagens/Aang.png" alt="Avatar Aang">
                     <div class="content">
                         <h3>Avatar Aang</h3>
                     </div>
@@ -95,7 +100,7 @@
         <tr>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/Korra.png" alt="Avatar Korra">
+                    <img src="/imagens/Korra.png" alt="Avatar Korra">
                     <div class="content">
                         <h3>Avatar Korra</h3>
                     </div>
@@ -108,13 +113,9 @@
         <tr>
     </table>
 
-    <script>
-        function toggleText(element) {
-            element.classList.toggle('expanded');
-        }
-    </script>
         <div id="rodape">
             <p>&copy; Todos os direitos reservados</p>
         </div>
+    <script src="/script.js"></script>
 </body>
 </html>

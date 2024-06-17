@@ -7,24 +7,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="/imagens/iconeHome.png" type="image/x-icon">
     <title>Localidades do Mundo Avatar</title>
 </head>
 <body>
     <div class="menu">
         <h1>Nação Avatar</h1>
         <ul class="menu-items">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="avatares.html">Avatares</a></li>
+            <li><a href="/home/home.html">Home</a></li>
+            <li><a href="/avatares/avatares.html">Avatares</a></li>
             <li><a href="localidades.html">Localidades</a></li>
-            <li><a href="cadastro.html">Cadastro</a></li>
-            <li><a href="sobrenos.html">Sobre Nós</a></li>
+            <li><a href="/cadastrologin/cadastro.html">Cadastro</a></li>
+            <li><a href="/sobrenos/sobrenos.html">Sobre Nós</a></li>
         </ul>
     </div>
+    <h1 class="title">Localidades</h1>
+    <h2>Clique nas imagens abaixo para saber mais sobre cada localização:</h2>
     <table>
         <tr>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/4nacoes.jpg" alt="Mapa das 4 nações">
+                    <img src="/imagens/4nacoes.jpg" alt="Mapa das 4 nações">
                     <div class="content">
                         <h3>As Quatro Nações</h3>
                     </div>
@@ -35,7 +38,7 @@
             </td>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/nacao-do-fogo.png" alt="Nação do Fogo">
+                    <img src="/imagens/nacao-do-fogo.png" alt="Nação do Fogo">
                     <div class="content">
                         <h3>Nação do Fogo</h3>
                     </div>
@@ -46,7 +49,7 @@
             </td>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/reinodaterra.jpg" alt="Reino da Terra">
+                    <img src="/imagens/reinodaterra.jpg" alt="Reino da Terra">
                     <div class="content">
                         <h3>Reino da Terra</h3>
                     </div>
@@ -61,7 +64,7 @@
         <tr>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/tribo_da_agua_do_sul.png" alt="Tribo da Água Sul">
+                    <img src="/imagens/tribo_da_agua_do_sul.png" alt="Tribo da Água Sul">
                     <div class="content">
                         <h3>Tribo da Água do Sul</h3>
                     </div>
@@ -72,7 +75,7 @@
             </td>
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/triboagua.png" alt="Tribo da Água do Norte">
+                    <img src="/imagens/triboagua.png" alt="Tribo da Água do Norte">
                     <div class="content">
                         <h3>Tribo da Água do Norte</h3>
                     </div>
@@ -84,7 +87,7 @@
 
             <td>
                 <div class="rectangle" onclick="toggleText(this)">
-                    <img src="imagens/templos_do_ar.png" alt="Templos do Ar">
+                    <img src="/imagens/templos_do_ar.png" alt="Templos do Ar">
                     <div class="content">
                         <h3>Templos do Ar</h3>
                     </div>
@@ -96,11 +99,8 @@
         </tr>
     </table>
 
-    <script>
-        function toggleText(element) {
-            element.classList.toggle('expanded');
-        }
-    </script>
+    <script src="/script.js"></script>
+    
         <div id="rodape">
             <p>&copy; Todos os direitos reservados</p>
         </div>
